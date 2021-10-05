@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MoviesRetrofit</string>
+    <string name="rvText">Popular Movies</string>
+    <string name="api_key">742734cffa22a93e0b1cc6d85e8cdb12</string>
+    <string name="movieImg">Movie Image</string>
+    <string name="title">Title: %s </string>
+    <string name="overview">Overview: %s </string>
+    <string name="rating">Rating: %f </string>
+    <string name="t.mess">Error Loading</string>
+
+</resources>
