@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Covax Spotter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="find">Vaccination Centers</string>
+    <string name="info">Vaccine Information</string>
+    <string name="quote">Prevention is better than cure</string>
+    <string name="covid">Aluta Continua contre Covid-19</string>
+
+    <!--Fragment Labels-->
+    <string name="dashboard_label">Home</string>
+    <string name="counties">Counties</string>
+    <string name="vaccines">Vaccines</string>
+
+
+    <string name="pfizer">BioNTech, Pfizer Vaccine</string>
+    <string name="vaccine_img">Vaccine Image</string>
+    <string name="jnj">Johnson &amp; Johnson Vaccine</string>
+    <string name="astra">Astrazeneca</string>
+    <string name="moderna">Moderna Vaccine</string>
+    <string name="sino">Sinopharm BBIBP Vaccine</string>
+
+
+</resources>
