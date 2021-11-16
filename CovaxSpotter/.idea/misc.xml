@@ -8,6 +8,9 @@
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CovaxSpotter/app/src/main/res/layout/activity_main.xml" value="0.17962962962962964" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CovaxSpotter/app/src/main/res/layout/fragment_counties.xml" value="0.2421875" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CovaxSpotter/app/src/main/res/layout/fragment_dashboard.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/CovaxSpotter/app/src/main/res/layout/fragment_jn_j.xml" value="0.2421875" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/CovaxSpotter/app/src/main/res/layout/fragment_moderna.xml" value="0.2421875" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/CovaxSpotter/app/src/main/res/layout/fragment_pfizer.xml" value="0.2421875" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/CovaxSpotter/app/src/main/res/layout/fragment_vaccines.xml" value="0.175" />
       </map>
     </option>

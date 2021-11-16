@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.example.covaxspotter.R
 import com.example.covaxspotter.databinding.FragmentVaccinesBinding
 
@@ -24,8 +25,16 @@ class VaccinesFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.cardPhizer.setOnClickListener {
-            val action =
+            val action = VaccinesFragmentDirections.actionVaccinesFragmentToPfizerFragment()
+            findNavController().navigate(action)
         }
+        /**
+         * Add click listeners and directions for:
+         * ->Astrazeneca
+         * ->Jonhsons & Johnsons
+         * ->Moderna
+         * ->Sinopharm
+         */
 
     }
 

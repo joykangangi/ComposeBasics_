@@ -36,5 +36,70 @@
         android:id="@+id/vaccinesFragment"
         android:name="com.example.covaxspotter.ui.VaccinesFragment"
         android:label="@string/vaccines"
-        tools:layout="@layout/fragment_vaccines" />
+        tools:layout="@layout/fragment_vaccines" >
+        <action
+            android:id="@+id/action_vaccinesFragment_to_sinopharmFragment"
+            app:destination="@id/sinopharmFragment"
+            app:launchSingleTop="true"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_vaccinesFragment_to_modernaFragment"
+            app:destination="@id/modernaFragment"
+            app:launchSingleTop="true"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_vaccinesFragment_to_jnJFragment"
+            app:destination="@id/jnJFragment"
+            app:launchSingleTop="true"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_vaccinesFragment_to_pfizerFragment"
+            app:destination="@id/pfizerFragment"
+            app:launchSingleTop="true"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_vaccinesFragment_to_astraZenFragment"
+            app:destination="@id/astraZenFragment"
+            app:launchSingleTop="true"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/astraZenFragment"
+        android:name="com.example.covaxspotter.ui.vaccines.AstraZenFragment"
+        android:label="fragment_astra_zen"
+        tools:layout="@layout/fragment_astra_zen" />
+    <fragment
+        android:id="@+id/pfizerFragment"
+        android:name="com.example.covaxspotter.ui.vaccines.PfizerFragment"
+        android:label="PfizerFragment" />
+    <fragment
+        android:id="@+id/jnJFragment"
+        android:name="com.example.covaxspotter.ui.vaccines.JnJFragment"
+        android:label="fragment_jn_j"
+        tools:layout="@layout/fragment_jn_j" />
+    <fragment
+        android:id="@+id/modernaFragment"
+        android:name="com.example.covaxspotter.ui.vaccines.ModernaFragment"
+        android:label="fragment_moderna"
+        tools:layout="@layout/fragment_moderna" />
+    <fragment
+        android:id="@+id/sinopharmFragment"
+        android:name="com.example.covaxspotter.ui.vaccines.SinopharmFragment"
+        android:label="fragment_sinopharm"
+        tools:layout="@layout/fragment_sinopharm" />
 </navigation>
